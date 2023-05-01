@@ -1,0 +1,155 @@
+
+
+.main-container {
+    display: grid;
+    grid-template: repeat(10, 67px) / repeat(10, 130px);
+    grid-auto-flow: row;
+
+    margin-left: 100px;
+
+    background-color: #F4F5FA;
+    
+    height: 670px;
+    width: 1300px;
+    
+    border-radius: 4%;
+    border-style: solid;
+    border-color: pink;
+    /*
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    */
+}
+
+
+.header {
+    text-align: center;
+    grid-area: 1 / 2 / 1 / 10;
+}
+
+
+.plans{
+    grid-area: 4 / 2 / 5 / 6;
+    
+    display: grid;
+  
+    
+ 
+
+    width: 1200px;
+    height: 350px;
+}
+
+
+.plan1, .plan2, .plan3 {
+    border-style: groove;
+    border-color: #f39af1;
+    height: 310px;
+    width: 310px;
+ 
+
+    display: grid;
+    
+
+    border-radius: 20px;
+   /* align-items: center;
+    justify-items: center; */
+    
+}
+
+.plan1-text, .plan2-text, .plan3-text {
+    margin-top: 25px;
+
+
+}
+
+.plan1-desc, .plan2-desc, .plan3-desc {
+    margin-left: 4;
+    
+
+}
+
+.plan1{
+    box-shadow: -25px -25px #f7f0d8;
+   
+    grid-area: 5 / 1 / 6 / 4;
+}
+
+.plan1-desc {
+  
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+
+.plan2-desc{
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.plan3-desc{
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+
+
+
+.plans button {
+    color: black;
+    background-color: #F0F0F6;
+    padding: 20px;
+    border-radius: 30px;
+    text-align: center;
+    margin-left: 70px;
+    filter: drop-shadow(5px 7px 1px rgba(0, 0, 0, 0.25));
+    margin-bottom: 5px;
+    width: 170px;
+    
+}
+.plans img {
+    height: 30px;
+}
+
+
+.plans .size{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.plans .name{
+    font-size: 18px;
+   
+}
+
+
+.plan2{
+    box-shadow: -25px -25px #e8c7f8;
+    grid-area: 5 / 4 / 6 / 6;
+}
+
+.plan3{
+    box-shadow: -25px -25px #cbd0f6;
+    grid-area: 5 / 7 / 6 / 10;
+}
+
+
+
+.button1 button {
+    background-color: #171435;
+    padding: 20px;
+    width: 200px;
+    color: #ffffff;
+    text-align: center;
+    border-radius: 30px;
+}
+
+.button1{
+    grid-area: 10 / 5 / 10 / 5;
+
+    width: 200px;
+    height: 70px;
+}
